@@ -1,0 +1,1 @@
+# akilli-depo-karar-destek-sistemi
