@@ -1,13 +1,7 @@
-# 📊 Akıllı Lojistik Depolarında Karar Destek Sistemi ve Kesikli Olay Simülasyonu
+#  Akıllı Lojistik Depolarında Karar Destek Sistemi ve Kesikli Olay Simülasyonu
 
 Bu proje, modern lojistik merkezlerinde sipariş akış hızı, otonom yönlendirmeli araç (AGV) kapasite planlaması ve operasyonel darboğazların analizi için geliştirilmiş **Kesikli Olay Simülasyonu (DES)** tabanlı bir **Karar Destek Sistemi** dashboard uygulamasıdır.
 
-## 🏛️ Kurumsal Bilgiler
-* **Üniversite:** T.C. Mersin Üniversitesi
-* **Geliştirici:** Mahmut Ercan (Öğrenci No: 22430070018)
-* **Proje Türü:** Karar Destek Sistemi ve Simülasyon Uygulaması
-
----
 
  Projenin Amacı ve Kapsamı
 Akıllı depo süreçlerini dijital ortamda modelleyerek operasyon yöneticilerine stratejik ve veri odaklı karar desteği sağlamak amaçlanmıştır. Sistem:
@@ -24,12 +18,18 @@ Proje tamamen açık kaynaklı mimariler ve popüler veri analitiği kütüphane
 * **Pandas & NumPy** (Sayısal hesaplamalar ve veri manipülasyonu)
 
 
+ Kurulum ve Çalıştırma Talimatları
 
- Kurulum ve Çalıştırma
+Projenin yerel bilgisayarınızda (Localhost) sorunsuz bir şekilde ayağa kaldırılabilmesi için aşağıdaki adımları sırasıyla takip ediniz.
 
-Projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
+###  Ön Gereksinimler
+Sisteminizde **Python 3.8** veya üzeri bir sürümün kurulu olduğundan emin olunuz. Python kurulu değilse [python.org](https://www.python.org/) adresinden indirebilirsiniz.
 
-1. **Projeyi Klonlayın:**
+
+###  Adım Adım Kurulum
+
+#### 1. Projeyi Bilgisayarınıza İndirin (Klonlayın)
+Terminalinizi (Komut İstemi) açın ve projenin indirileceği dizine giderek aşağıdaki komutla repoyu klonlayın:
 ```bash
-git clone [https://github.com/kullaniciadi/akilli-depo-simulasyonu.git](https://github.com/kullaniciadi/akilli-depo-simulasyonu.git)
-cd akilli-depo-simulasyonu
+git clone [https://github.com/KULLANICI_ADINIZ/akilli-depo-karar-destek-sistemi.git](https://github.com/KULLANICI_ADINIZ/akilli-depo-karar-destek-sistemi.git)
+cd akilli-depo-karar-destek-sistemi
